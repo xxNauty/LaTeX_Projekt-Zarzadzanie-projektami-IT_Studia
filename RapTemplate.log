@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  20 MAY 2025 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  20 MAY 2025 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,43 +1263,63 @@ Overfull \hbox (2.324pt too wide) in alignment at lines 13--13
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-6.
+3.
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 {C:/Users/mateu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mate
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/mateu/Ap
-pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/mateu/AppDa
-ta/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./ELogoWSEI.png>] [2] [
-3]
-(RapTemplate.aux)
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./ELogoWSEI.png>] [
+2]
+[3] (RapTemplate.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `RapTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: 91897F1A70DC4EE5BB475A6D6CA414F9;1134.
+
+
+Package rerunfilecheck Warning: File `RapTemplate.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `RapTemplate.out':
+(rerunfilecheck)             Before: 91897F1A70DC4EE5BB475A6D6CA414F9;1134
+(rerunfilecheck)             After:  F457E1899CF97338DB447DF0E651EC06;1163.
  ) 
 Here is how much of TeX's memory you used:
- 39350 strings out of 474486
- 926217 string characters out of 5743756
- 1956542 words of memory out of 5000000
- 60962 multiletter control sequences out of 15000+600000
- 610318 words of font info for 64 fonts, out of 8000000 for 9000
+ 38945 strings out of 474486
+ 917078 string characters out of 5743756
+ 1948542 words of memory out of 5000000
+ 60555 multiletter control sequences out of 15000+600000
+ 607328 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,14n,121p,757b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
-fb><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
-b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-<C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+ 114i,14n,121p,757b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+<C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb>
+<C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb
+><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 Output written on C:/Users\mateu\Documents\Studia\Java\untitled1\RapTemplate.pd
-f (3 pages, 221992 bytes).
+f (3 pages, 178013 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
