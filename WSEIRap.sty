@@ -1,0 +1,122 @@
+\ProvidesPackage{WSEIRap}
+\RequirePackage{amsmath}
+\RequirePackage[polish]{babel}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{hyperref}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{listings}
+\RequirePackage{lmodern}
+\RequirePackage{multirow}
+\RequirePackage{pgf-pie}
+\RequirePackage{pgf-umlcd}
+\RequirePackage{pgf-umlsd}
+\RequirePackage{pgfgantt}
+\RequirePackage{pgfplots}
+\RequirePackage{setspace}
+\RequirePackage{struktex}
+\RequirePackage{tabularx}
+\RequirePackage{tcolorbox}
+\RequirePackage{tikz}
+\RequirePackage{titlesec}
+\RequirePackage{xcolor}
+\RequirePackage{color}
+
+\pgfplotsset{compat=1.18}
+\definecolor{ColSzkola}{RGB}{3,42,91}
+\definecolor{GraySzkola}{RGB}{89,89,89}
+\definecolor{lightyellow}{RGB}{255,255,204}
+\definecolor{codebackground}{RGB}{224,242,233}
+\definecolor{lightnavyblue}{RGB}{224,224,224}
+\newtcolorbox{ramka}[1]{colback=lightnavyblue, colframe=ColSzkola, fonttitle=\bfseries\color{lightyellow}, coltitle=lightyellow, arc=5pt, title=#1}
+
+\titleformat{\section}  % Zmiana formatu sekcji
+  {\normalfont\Large\scshape}   % Styl czcionki tytułu sekcji (małe kapitałki)
+  {\raggedleft\thesection.}      % Numeracja sekcji wyrównana do prawej z kropką
+  {1em}                          % Odstęp między numerem a tytułem sekcji
+  {}
+\titleformat{\subsection}  % Zmiana formatu subsekcji
+  {\normalfont\large\scshape}   % Styl czcionki tytułu subsekcji
+  {\raggedleft\thesubsection.}   % Numeracja subsekcji wyrównana do prawej z kropką
+  {1em}                          % Odstęp między numerem a tytułem subsekcji
+  {}
+
+% Zmiana formatu numeracji subsubsekcji
+\titleformat{\subsubsection}  % Zmiana formatu subsubsekcji
+  {\normalfont\normalsize\scshape}   % Styl czcionki tytułu subsubsekcji
+  {\raggedleft\thesubsubsection.}     % Numeracja subsubsekcji wyrównana do prawej z kropką
+  {1em}                               % Odstęp między numerem a tytułem subsubsekcji
+  {}
+
+% Custom commands for report metadata
+\newcommand{\titleLab}{Ćwiecnie tytuł}
+\newcommand{\Author}{Janusz}
+\newcommand{\Students}{Student 1\\Student 2}
+\newcommand{\Supervisor}{dr inż Tomasz Giżewski}
+\newcommand{\lab}{Nazwa laboratorium}
+\newcommand{\groupLab}{Grupa}
+\newcommand{\Date}{1-10-2024}
+\newcommand{\School}{Akademia WSEI}
+\newcommand{\Rodzaj}{Raport}
+\newcommand{\Plik}{ELogoWSEI.png}
+
+\lstset{
+  rulewidth=1.5pt,        % Ustawienie grubości ramki
+}
+
+\lstset{
+    numbersep=10pt,
+    backgroundcolor=\color{codebackground},
+    rulecolor=\color{ColSzkola},
+    inputencoding=utf8,       % Ustawienie kodowania na UTF-8
+    extendedchars=true,       % Włączenie rozszerzonych znaków (takich jak polskie znaki)
+    literate=%
+    {ą}{{\k{a}}}1
+    {Ą}{{\k{A}}}1
+    {ć}{{\'c}}1
+    {Ć}{{\'C}}1
+    {ę}{{\k{e}}}1
+    {Ę}{{\k{E}}}1
+    {ł}{{\l{}}}1
+    {Ł}{{\L{}}}1
+    {ń}{{\'n}}1
+    {Ń}{{\'N}}1
+    {ó}{{\'o}}1
+    {Ó}{{\'O}}1
+    {ś}{{\'s}}1
+    {Ś}{{\'S}}1
+    {ż}{{\.z}}1
+    {Ż}{{\.Z}}1
+    {ź}{{\'z}}1
+    {Ź}{{\'Z}}1,
+    basicstyle=\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    breaklines=true,
+    frame=single,
+    captionpos=b
+}
+% Title page design
+\newcommand{\RapPage}{
+  \noindent
+  \textcolor{ColSzkola}{\rule{\textwidth}{3mm}}  
+  \begin{tabularx}{\textwidth}{m{0.02\textwidth} m{0.28\textwidth} m{0.2\textwidth} m{0.4\textwidth} }
+    \vspace{1mm}
+    \multirow{3}{0.75cm}{\textcolor{ColSzkola}{\rule{6mm}{5cm}}}&\multirow{4}{3cm}{\vspace*{0pt}\centering\includegraphics[width=3cm]{\Plik}} &\Large{~}&\\ 
+    & &\multicolumn{2}{r}{\large{\textcolor{ColSzkola}{\School}}} \\
+    & &\multicolumn{2}{r}{\normalsize{{}}} \\
+    & &\multicolumn{2}{r}{\textsc{\lab}} \\
+    \multicolumn{4}{l}{\textcolor{GraySzkola}{\rule{0.98\textwidth}{0.5mm}}} \\ 
+    &\multicolumn{3}{c}{\Large{\Rodzaj}} \\ 
+    &\multicolumn{3}{c}{\textcolor{ColSzkola}{\large{\textsc{\titleLab}}}} \\ 
+    \multicolumn{4}{l}{\textcolor{GraySzkola}{\rule{0.98\textwidth}{0.5mm}}} \\ 
+    &\multicolumn{1}{l}{\footnotesize{Author of the report:}}&\footnotesize{Data:} &\footnotesize{Laboratory group:}\\
+    &\multicolumn{1}{c}{\textsc{\Author}}& \Date &\multicolumn{1}{c}{\groupLab}\\
+    &\Students&&\footnotesize{Supervisor:}\\
+    & & &\multicolumn{1}{c}{\Supervisor}\\
+  \end{tabularx}
+  \textcolor{ColSzkola}{\rule{\textwidth}{1mm}}  
+  \vspace{0.25cm}
+}

@@ -1,0 +1,60 @@
+\ProvidesPackage{WSEIPrez}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{tikz}
+
+\definecolor{navyblue}{RGB}{0,39,89} 
+\definecolor{white}{RGB}{255,255,255}
+
+\setbeamercolor{frametitle}{bg=white, fg=navyblue} 
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{header}{bg=white, fg=navyblue} 
+
+\setbeamertemplate{frametitle}{
+  \begin{tikzpicture}[remember picture, overlay]
+    % Umieszczenie logo po lewej stronie
+    \node[anchor=west, xshift=-8cm, yshift=-0.75cm] at (current page.north) {
+      \includegraphics[height=1cm]{../LogoWSEI.png} % Ścieżka do pliku logo
+    };
+    % Umieszczenie tytułu slajdu obok logo
+    \node[anchor=west, xshift=-6.25cm, yshift=-0.75cm] at (current page.north) {\insertframetitle};
+    % Rysowanie linii pod tytułem i logo (cała szerokość slajdu)
+    \draw[line width=1mm] ([yshift=3.0cm] current page.west) -- ([yshift=3.0cm] current page.east);
+  \end{tikzpicture}
+  \vspace*{1cm}
+}
+
+
+\defbeamertemplate*{title page}{WSEI}[1][]
+{
+  \setbeamertemplate{headline}{} 
+  \setbeamertemplate{footline}{} 
+%  \begin{center}
+    \color{navyblue}\rule{\paperwidth}{3mm}
+    \vspace{1.0cm}
+    \includegraphics[height=1.5cm]{../LogoWSEI}\\
+    \vspace{1cm}
+    {\color{navyblue}\huge\textbf{\inserttitle}\par}  
+    \vspace{0.2cm}
+    {\large\color{navyblue}\textbf{\insertauthor}\par} 
+    \vspace{1.0cm}
+    {\color{navyblue}\insertdate\par} % Data prezentacji
+    \vspace{1.0cm}
+    \color{navyblue}\rule{\paperwidth}{8mm}
+%  \end{center}
+}
+
+% Definicje stopki
+\setbeamercolor{footline}{fg=white,bg=navyblue}
+
+\setbeamertemplate{footline}
+{
+    \leavevmode%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=0.5cm,dp=0.25cm,center]{footline}
+      \insertshortauthor \hfill \insertshortdate \hfill \insertframenumber/\inserttotalframenumber
+    \end{beamercolorbox}%
+}
+% Informacje o stopce i nagłówku
+\setbeamertemplate{navigation symbols}{} % Brak dodatkowych symboli nawigacyjnych
