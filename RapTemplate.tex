@@ -181,4 +181,19 @@ Główne cele projektu to:
     \draw[thick] (implementacja) -- (utworzenie);
 
 \end{tikzpicture}
+
+\begin{tikzpicture}
+    \draw (0,0) -- (15,0);
+
+    \foreach \x in {0,3,6,9,12,15}
+    \draw (\x,0.15) -- (\x,-0.4);
+
+    \node[anchor=south] at (0,0.15)    {Badanie rynku};
+    \node[anchor=south] at (3,0.15)    {Projekt intefejsu};
+    \node[anchor=south] at (6,0.15)    {Projekt kodu};
+    \node[anchor=south] at (9,0.15)    {Pisanie kodu};
+    \node[anchor=south] at (12,0.15)   {Integracja};
+    \node[anchor=south] at (15,0.15)   {Gotowy projekt};
+
+\end{tikzpicture}
 \end{document}

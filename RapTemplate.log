@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,7 +1276,12 @@ Overfull \hbox (23.74258pt too wide) in paragraph at lines 183--184
  [] 
  []
 
-[3] [4] (RapTemplate.aux)
+[3]
+Overfull \hbox (29.05444pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+[4] (RapTemplate.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1285,10 +1290,10 @@ Package rerunfilecheck Info: File `RapTemplate.out' has not changed.
 (rerunfilecheck)             Checksum: E5C5050D374B00D0F6033F60C95D7010;1368.
  ) 
 Here is how much of TeX's memory you used:
- 39073 strings out of 474486
- 919910 string characters out of 5743756
+ 39076 strings out of 474486
+ 919952 string characters out of 5743756
  1948542 words of memory out of 5000000
- 60684 multiletter control sequences out of 15000+600000
+ 60687 multiletter control sequences out of 15000+600000
  613313 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,14n,121p,757b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1300,7 +1305,7 @@ b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 
 Output written on C:/Users\mateu\Documents\Studia\Java\untitled1\RapTemplate.pd
-f (4 pages, 207438 bytes).
+f (4 pages, 207783 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
