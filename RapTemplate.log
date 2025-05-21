@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,7 +1263,7 @@ Overfull \hbox (2.324pt too wide) in alignment at lines 13--13
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-3.
+4.
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1272,7 +1272,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/mateu/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./ELogoWSEI.png>] [
 2]
-Overfull \hbox (23.74258pt too wide) in paragraph at lines 181--182
+Overfull \hbox (23.74258pt too wide) in paragraph at lines 183--184
  [] 
  []
 
@@ -1286,12 +1286,12 @@ Package rerunfilecheck Info: File `RapTemplate.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  39073 strings out of 474486
- 919878 string characters out of 5743756
+ 919910 string characters out of 5743756
  1948542 words of memory out of 5000000
  60684 multiletter control sequences out of 15000+600000
  613313 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,14n,121p,757b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,14n,121p,757b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -1300,7 +1300,7 @@ b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 
 Output written on C:/Users\mateu\Documents\Studia\Java\untitled1\RapTemplate.pd
-f (4 pages, 208797 bytes).
+f (4 pages, 207438 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
