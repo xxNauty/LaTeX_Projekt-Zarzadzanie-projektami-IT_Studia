@@ -1,6 +1,9 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage{WSEIRap} 
 \usepackage{pgf-umlcd}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \renewcommand{\titleLab}{Inteligentny Asystent Śniadań}
 \renewcommand{\Author}{Mateusz Wnuk}
 \renewcommand{\Students}{~}
@@ -196,4 +199,54 @@ Główne cele projektu to:
     \node[anchor=south] at (15,0.15)   {Gotowy projekt};
 
 \end{tikzpicture}
+
+\newpage
+
+\section{\mbox{Work Packages - Podejście Waterfall}}\label{sec:work-packages---podejscie-waterfall}
+
+\begin{table}[ht]
+    \centering
+    \renewcommand{\arraystretch}{1.4}
+    \rowcolors{2}{white}{gray!10}
+    \begin{tabular}{|>{\columncolor{yellow!20}}c|>{\columncolor{yellow!10}}m{3cm}|m{3.2cm}|m{3.2cm}|>{\columncolor{yellow!10}}c|}
+        \hline
+        \rowcolor{yellow!30}
+        WP & Nazwa etapu & Cel zadania & Rezultaty (Deliverables) & Czas [dni] \\
+        \hline
+        WP1 & Badanie rynku & Zidentyfikowanie potrzeb użytkowników & Lista podpunktów do pokrycia przez projekt & 4 \\
+        \hline
+        WP2 & Projekt interfejsu & Przełożenie pomysłu na warstwę wizualną projektu & Gotowy projekt warstwy wizualnej & 3 \\
+        \hline
+        WP3 & Projekt kodu & Zaprojektowanie warstwy logicznej aplikacji oraz dobór odpowiednich technologii & Gotowa lista zadań do zrobienia oraz technologie potrzebne do ich zaimplementowania & 3 \\
+        \hline
+        WP4 & Pisanie kodu & Utworzenie działającej aplikacji & Działająca aplikacja & 7 \\
+        \hline
+        WP5 & Integracja & Zintegrowanie aplikacji z zewnętrznymi urządzeniami oraz innymi wymaganymi aplikacjami & API używane do integracji zewnętrznych & 3 \\
+        \hline
+        WP6 & Gotowy projekt & Oddanie gotowego projektu & Koniec prac i pieniądze ze sprzedaży aplikacji & 1 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\section{\mbox{Wykres Gantta}}\label{sec:wykres-gantta}
+
+\vspace{1cm} % Adds 1cm of vertical space below the heading
+
+\begin{ganttchart}[
+    hgrid,
+    vgrid,
+    bar height=0.6,
+    bar/. append style={fill=orange!60},
+    title label font=\bfseries\footnotesize
+]{1}{21}
+\gantttitle{ Sprinty Kwiecien 2025}{21} \\
+\gantttitlelist{1,...,21}{1} \\
+\ganttbar{Sprint WP1}{1}{4} \\
+\ganttbar{Sprint WP2}{5}{7} \\
+\ganttbar{Sprint WP3}{8}{10} \\
+\ganttbar{Sprint WP4}{11}{17} \\
+\ganttbar{WP5}{18}{20} \\
+\ganttbar{WP6}{21}{21}
+\end{ganttchart}
+
 \end{document}

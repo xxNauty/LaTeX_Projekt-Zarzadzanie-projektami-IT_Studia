@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,8 +1117,13 @@ l.65 }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+) (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks52
+\minrowclearance=\skip64
+\rownum=\count376
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
 .
  (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1126,29 +1131,29 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count376
+\l__color_backend_stack_int=\count377
 \l__pdf_internal_box=\box105
 ) (RapTemplate.aux)
 \openout1 = `RapTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1188,17 +1193,17 @@ LaTeX Font Info:    ... okay on input line 12.
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
+\scratchcounter=\count378
 \scratchdimen=\dimen320
 \scratchbox=\box106
-\nofMPsegments=\count378
-\nofMParguments=\count379
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count380
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count381
 \MPscratchDim=\dimen321
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks54
 )
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1210,12 +1215,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 15.
  (RapTemplate.out) (RapTemplate.out)
 \@outlinefile=\write4
 \openout4 = `RapTemplate.out'.
 
-\c@lstlisting=\count383
+\c@lstlisting=\count384
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1225,45 +1230,45 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd)
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
-Overfull \vbox (103.11386pt too high) detected at line 13
+Overfull \vbox (103.11386pt too high) detected at line 16
  []
 
 
-Overfull \vbox (2.2982pt too high) detected at line 13
+Overfull \vbox (2.2982pt too high) detected at line 16
  []
 
 
-Overfull \vbox (103.11386pt too high) detected at line 13
+Overfull \vbox (103.11386pt too high) detected at line 16
  []
 
 
-Overfull \vbox (2.2982pt too high) detected at line 13
+Overfull \vbox (2.2982pt too high) detected at line 16
  []
 
 
-Overfull \vbox (103.11386pt too high) detected at line 13
+Overfull \vbox (103.11386pt too high) detected at line 16
  []
 
 
-Overfull \hbox (11.66356pt too wide) in paragraph at lines 13--13
+Overfull \hbox (11.66356pt too wide) in paragraph at lines 16--16
 []|[]| 
  []
 
 File: ELogoWSEI.png Graphic file (type png)
 <use ELogoWSEI.png>
-Package pdftex.def Info: ELogoWSEI.png  used on input line 13.
+Package pdftex.def Info: ELogoWSEI.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 55.9481pt.
 
-Overfull \vbox (2.2982pt too high) detected at line 13
+Overfull \vbox (2.2982pt too high) detected at line 16
  []
 
 
-Overfull \hbox (2.324pt too wide) in alignment at lines 13--13
+Overfull \hbox (2.32399pt too wide) in alignment at lines 16--16
 [][][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-4.
+7.
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1272,31 +1277,176 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/mateu/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./ELogoWSEI.png>] [
 2]
-Overfull \hbox (23.74258pt too wide) in paragraph at lines 183--184
+Overfull \hbox (23.74258pt too wide) in paragraph at lines 186--187
  [] 
  []
 
 [3]
-Overfull \hbox (29.05444pt too wide) in paragraph at lines 203--204
+Overfull \hbox (29.05444pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
-[4] (RapTemplate.aux)
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+|[][]|
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 214--214
+[]|\T1/lmr/m/n/12 Rezultaty (De-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/12 Zidentyfikowanie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/12 Lista pod-punk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\T1/lmr/m/n/12 Projekt in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\T1/lmr/m/n/12 Przeªo»enie po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+\T1/lmr/m/n/12 wi-zu-aln¡ pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\T1/lmr/m/n/12 Gotowy pro-jekt
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 218--218
+\T1/lmr/m/n/12 war-stwy wi-zu-al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[]|\T1/lmr/m/n/12 Zaprojektowanie
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 220--220
+\T1/lmr/m/n/12 oraz tech-no-lo-gie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+\T1/lmr/m/n/12 za-im-ple-men-to-wa-
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 222--222
+[]|\T1/lmr/m/n/12 Utworzenie dzia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+[]|\T1/lmr/m/n/12 Dziaªaj¡ca apli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\T1/lmr/m/n/12 Zintegrowanie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 apli-ka-cji z ze-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 wn¦trz-nymi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 urz¡-dze-niami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 oraz in-nymi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 wy-ma-ga-nymi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]|\T1/lmr/m/n/12 API u»y-wane
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+\T1/lmr/m/n/12 do in-te-gra-cji
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\T1/lmr/m/n/12 Oddanie go-to-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 226--226
+\T1/lmr/m/n/12 ni¡-dze ze sprze-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+|[][]|
+ []
+
+
+RapTemplate.tex:241: Package pgfkeys Error: I do not know the key '/pgfgantt/ba
+r/. append style', to which you passed 'fill=orange!60', and I am going to igno
+re it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ]{1}{21}
+              
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+[5] [6] (RapTemplate.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `RapTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: E5C5050D374B00D0F6033F60C95D7010;1368.
+(rerunfilecheck)             Checksum: 8F5CDA991C0FDABD4444EC971E68B629;1714.
  ) 
 Here is how much of TeX's memory you used:
- 39076 strings out of 474486
- 919952 string characters out of 5743756
- 1948542 words of memory out of 5000000
- 60687 multiletter control sequences out of 15000+600000
- 613313 words of font info for 65 fonts, out of 8000000 for 9000
+ 39521 strings out of 474486
+ 929433 string characters out of 5743756
+ 1951542 words of memory out of 5000000
+ 61124 multiletter control sequences out of 15000+600000
+ 616308 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,14n,121p,757b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,15n,121p,757b,819s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -1305,9 +1455,9 @@ b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 
 Output written on C:/Users\mateu\Documents\Studia\Java\untitled1\RapTemplate.pd
-f (4 pages, 207783 bytes).
+f (6 pages, 218633 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
