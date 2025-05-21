@@ -142,5 +142,41 @@ Inteligentny Asystent Śniadań to nowoczesna aplikacja mobilna stworzona z myś
         \item Regularne audyty bezpieczeństwa.
     \end{itemize}
 \end{itemize}
+    
+\section{WBS - Work Breakdown Structure}
+\centering
+\begin{tikzpicture}[
+    every node/.style={font=\small},
+    plan/.style={rectangle, draw=green!50!black, fill=green!10, rounded corners, thick, align=center},
+    create/.style={rectangle, draw=orange!70!black, fill=orange!10, rounded corners, thick, align=center},
+    main/.style={rectangle, draw=blue!50!black, fill=blue!20, rounded corners, thick, font=\bfseries\small, minimum width=2cm, minimum height=0.7cm, align=center}
+]
+    \node[main] (projekt) {Projekt};
 
+    \node[plan, below left=0.8cm and 1.8cm of projekt] (planowanie) {Faza planowania};
+    \node[create, below right=0.8cm and 1.8cm of projekt] (tworzenie) {Faza tworzenia};
+
+    \node[plan, below left=0.8cm and -1.3cm of planowanie] (badanie) {Badanie potrzeb rynku};
+    \node[plan, below right=0.8cm and -1.3cm of planowanie] (projektowanie) {Projektowanie};
+
+    \node[plan, below left=0.8cm and -1.1cm of projektowanie] (wizualny) {Wizualny projekt interfejsu};
+    \node[plan, below right=0.8cm and -1.1cm of projektowanie] (struktura) {Projekt struktury kodu};
+
+    \node[create, below=0.8cm of tworzenie] (implementacja) {Implementacja założeń projektowych};
+    \node[create, below right=3.7cm and -5.5cm of implementacja] (integracja) {Integracja z zewnętrznymi urządzeniami};
+    \node[create, below left=2.3cm and -2.5cm of implementacja] (utworzenie) {Utworzenie aplikacji};
+
+    \draw[thick] (projekt) -- (planowanie);
+    \draw[thick] (projekt) -- (tworzenie);
+
+    \draw[thick] (planowanie) -- (badanie);
+    \draw[thick] (planowanie) -- (projektowanie);
+    \draw[thick] (projektowanie) -- (wizualny);
+    \draw[thick] (projektowanie) -- (struktura);
+
+    \draw[thick] (tworzenie) -- (implementacja);
+    \draw[thick] (implementacja) -- (integracja);
+    \draw[thick] (implementacja) -- (utworzenie);
+
+\end{tikzpicture}
 \end{document}
