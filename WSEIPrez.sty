@@ -4,6 +4,7 @@
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{tikz}
+\RequirePackage{color}
 
 \definecolor{navyblue}{RGB}{0,39,89} 
 \definecolor{white}{RGB}{255,255,255}
@@ -16,8 +17,8 @@
   \begin{tikzpicture}[remember picture, overlay]
     % Umieszczenie logo po lewej stronie
     \node[anchor=west, xshift=-8cm, yshift=-0.75cm] at (current page.north) {
-      \includegraphics[height=1cm]{LogoWSEI.png} % Ścieżka do pliku logo
-    };
+      \includegraphics[height=1cm]{LogoWSEI} % Ścieżka do pliku logo
+    }
     % Umieszczenie tytułu slajdu obok logo
     \node[anchor=west, xshift=-6.25cm, yshift=-0.75cm] at (current page.north) {\insertframetitle};
     % Rysowanie linii pod tytułem i logo (cała szerokość slajdu)
@@ -34,7 +35,7 @@
 %  \begin{center}
     \color{navyblue}\rule{\paperwidth}{3mm}
     \vspace{1.0cm}
-    \includegraphics[height=1.5cm]{../LogoWSEI}\\
+    \includegraphics[height=1.5cm]{LogoWSEI}\\
     \vspace{1cm}
     {\color{navyblue}\huge\textbf{\inserttitle}\par}  
     \vspace{0.2cm}
