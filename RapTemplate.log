@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  21 MAY 2025 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  22 MAY 2025 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,7 +1268,7 @@ Overfull \hbox (2.32399pt too wide) in alignment at lines 16--16
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-7.
+8.
 (C:\Users\mateu\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -1277,142 +1277,62 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/mateu/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./ELogoWSEI.png>] [
 2]
-Overfull \hbox (23.74258pt too wide) in paragraph at lines 186--187
+Overfull \hbox (23.74258pt too wide) in paragraph at lines 188--189
  [] 
  []
 
 [3]
-Overfull \hbox (29.05444pt too wide) in paragraph at lines 201--202
- [][] 
+Overfull \hbox (46.67926pt too wide) in paragraph at lines 204--205
+[][] 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-|[][]|
+Overfull \hbox (1.45534pt too wide) in paragraph at lines 217--218
+[]|\T1/lmr/m/n/12 Czas
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 214--214
-[]|\T1/lmr/m/n/12 Rezultaty (De-li-
+Underfull \hbox (badness 5403) in paragraph at lines 219--219
+[]|\T1/lmr/m/n/12 Zidentyfikowanie po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]|\T1/lmr/m/n/12 Zidentyfikowanie
+Underfull \hbox (badness 7047) in paragraph at lines 221--221
+[]|\T1/lmr/m/n/12 Przeªo»enie po-my-sªu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]|\T1/lmr/m/n/12 Lista pod-punk-
+Underfull \hbox (badness 1082) in paragraph at lines 223--223
+[]|\T1/lmr/m/n/12 Gotowa li-sta za-da« do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]|\T1/lmr/m/n/12 Projekt in-ter-
+Underfull \hbox (badness 7759) in paragraph at lines 225--225
+[]|\T1/lmr/m/n/12 Utworzenie dzia-ªa-j¡-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]|\T1/lmr/m/n/12 Przeªo»enie po-
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\T1/lmr/m/n/12 Zintegrowanie apli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-\T1/lmr/m/n/12 wi-zu-aln¡ pro-
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\T1/lmr/m/n/12 urz¡-dze-niami oraz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]|\T1/lmr/m/n/12 Gotowy pro-jekt
+Underfull \hbox (badness 4713) in paragraph at lines 227--227
+\T1/lmr/m/n/12 in-nymi wy-ma-ga-nymi
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 218--218
-\T1/lmr/m/n/12 war-stwy wi-zu-al-
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\T1/lmr/m/n/12 Oddanie go-to-wego
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-[]|\T1/lmr/m/n/12 Zaprojektowanie
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 220--220
-\T1/lmr/m/n/12 oraz tech-no-lo-gie
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-\T1/lmr/m/n/12 za-im-ple-men-to-wa-
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 222--222
-[]|\T1/lmr/m/n/12 Utworzenie dzia-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-[]|\T1/lmr/m/n/12 Dziaªaj¡ca apli-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-[]|\T1/lmr/m/n/12 Zintegrowanie
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 apli-ka-cji z ze-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 wn¦trz-nymi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 urz¡-dze-niami
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 oraz in-nymi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 wy-ma-ga-nymi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-[]|\T1/lmr/m/n/12 API u»y-wane
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/lmr/m/n/12 do in-te-gra-cji
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]|\T1/lmr/m/n/12 Oddanie go-to-
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 226--226
-\T1/lmr/m/n/12 ni¡-dze ze sprze-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-|[][]|
- []
-
-
-RapTemplate.tex:241: Package pgfkeys Error: I do not know the key '/pgfgantt/ba
+RapTemplate.tex:245: Package pgfkeys Error: I do not know the key '/pgfgantt/ba
 r/. append style', to which you passed 'fill=orange!60', and I am going to igno
 re it. Perhaps you misspelled it.
 
@@ -1420,33 +1340,47 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241 ]{1}{21}
-              
+l.245     ]{1}{21}
+                  
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
-[5] [6] (RapTemplate.aux)
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+[]|\T1/lmr/m/n/12 Szacowany
+ []
+
+
+RapTemplate.tex:361: Package pgfkeys Error: I do not know the key '/pgfgantt/ba
+r/. append style', to which you passed 'fill=orange!60', and I am going to igno
+re it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361     ]{1}{21}
+                  
+(That was another \errmessage.)
+
+[8] [9] (RapTemplate.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `RapTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: 8F5CDA991C0FDABD4444EC971E68B629;1714.
+(rerunfilecheck)             Checksum: 0D59C29EB6214B27541A182E53811269;3127.
  ) 
 Here is how much of TeX's memory you used:
- 39521 strings out of 474486
- 929433 string characters out of 5743756
- 1951542 words of memory out of 5000000
- 61124 multiletter control sequences out of 15000+600000
+ 39631 strings out of 474486
+ 931247 string characters out of 5743756
+ 1960542 words of memory out of 5000000
+ 61205 multiletter control sequences out of 15000+600000
  616308 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,15n,121p,757b,819s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,15n,121p,757b,832s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
@@ -1455,9 +1389,9 @@ b><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/mateu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
 
 Output written on C:/Users\mateu\Documents\Studia\Java\untitled1\RapTemplate.pd
-f (6 pages, 218633 bytes).
+f (9 pages, 238135 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage{WSEIRap} 
+\usepackage{WSEIRap}
 \usepackage{pgf-umlcd}
 \usepackage[table]{xcolor}
 \usepackage{tikz}
@@ -13,240 +13,364 @@
 \renewcommand{\Rodzaj}{Raport}
 
 \begin{document}
-\RapPage
+    \RapPage
 
-\section{Inteligentny Asystent Śniadań}\label{sec:inteligentny-asystent-sniadan}
 
-\subsection{Opis Projektu}\label{subsec:opis-projektu}
+    \section{Inteligentny Asystent Śniadań}\label{sec:inteligentny-asystent-sniadan}
 
-Inteligentny Asystent Śniadań to nowoczesna aplikacja mobilna stworzona z myślą o ułatwieniu codziennych porannych rutyn.
-Główne cele projektu to:
-\begin{enumerate}
-    \item \textbf{Automatyzacja Procesu Przygotowywania Śniadań:} Aplikacja pomoże użytkownikom tworzyć spersonalizowane plany śniadaniowe, uwzględniając ich preferencje dietetyczne, dostępne składniki oraz czas, jaki mogą poświęcić na przygotowanie posiłku.
-    \item \textbf{Zarządzanie Zasobami Kuchennymi:} Asystent będzie monitorował stan zapasów kuchennych i sugerował zakupy niezbędnych produktów.
-    \item \textbf{Porady Żywieniowe i Zdrowotne:} Aplikacja dostarczy użytkownikom cennych informacji na temat wartości odżywczych posiłków, sugerując zdrowe zamienniki oraz optymalne porcje.
-    \item \textbf{Integracja z Urządzeniami IoT:} Asystent będzie mógł współpracować z inteligentnymi urządzeniami kuchennymi, takimi jak inteligentne lodówki, kuchenki czy blendery, aby jeszcze bardziej usprawnić proces przygotowywania posiłków.
-    \item \textbf{Interaktywne Przepisy:} Użytkownicy będą mieli dostęp do bazy interaktywnych przepisów, które będą dostosowywane na bieżąco w zależności od dostępnych składników oraz preferencji dietetycznych.
-    \item \textbf{Automatyczne Przygotowywanie Śniadań:} Asystent będzie mógł sterować urządzeniami kuchennymi, aby automatycznie przygotować śniadanie na zadaną godzinę.
-\end{enumerate}
+    \subsection{Opis Projektu}\label{subsec:opis-projektu}
 
-\subsection{Wymagania Projektowe}\label{subsec:wymagania-projektowe}
+    Inteligentny Asystent Śniadań to nowoczesna aplikacja mobilna stworzona z myślą o ułatwieniu codziennych porannych rutyn.
+    Główne cele projektu to:
+    \begin{enumerate}
+        \item \textbf{Automatyzacja Procesu Przygotowywania Śniadań:} Aplikacja pomoże użytkownikom tworzyć spersonalizowane plany śniadaniowe, uwzględniając ich preferencje dietetyczne, dostępne składniki oraz czas, jaki mogą poświęcić na przygotowanie posiłku.
+        \item \textbf{Zarządzanie Zasobami Kuchennymi:} Asystent będzie monitorował stan zapasów kuchennych i sugerował zakupy niezbędnych produktów.
+        \item \textbf{Porady Żywieniowe i Zdrowotne:} Aplikacja dostarczy użytkownikom cennych informacji na temat wartości odżywczych posiłków, sugerując zdrowe zamienniki oraz optymalne porcje.
+        \item \textbf{Integracja z Urządzeniami IoT:} Asystent będzie mógł współpracować z inteligentnymi urządzeniami kuchennymi, takimi jak inteligentne lodówki, kuchenki czy blendery, aby jeszcze bardziej usprawnić proces przygotowywania posiłków.
+        \item \textbf{Interaktywne Przepisy:} Użytkownicy będą mieli dostęp do bazy interaktywnych przepisów, które będą dostosowywane na bieżąco w zależności od dostępnych składników oraz preferencji dietetycznych.
+        \item \textbf{Automatyczne Przygotowywanie Śniadań:} Asystent będzie mógł sterować urządzeniami kuchennymi, aby automatycznie przygotować śniadanie na zadaną godzinę.
+    \end{enumerate}
 
-\subsubsection{Funkcjonalność}
-\begin{itemize}
-    \item \textbf{Tworzenie Planów Śniadaniowych:}
+    \subsection{Wymagania Projektowe}\label{subsec:wymagania-projektowe}
+
+    \subsubsection{Funkcjonalność}
     \begin{itemize}
-        \item Personalizacja na podstawie preferencji dietetycznych użytkownika.
-        \item Uwzględnianie dostępnych składników.
-        \item Opcje dla osób z ograniczeniami dietetycznymi (np.\ weganizm, bezglutenowe).
+        \item \textbf{Tworzenie Planów Śniadaniowych:}
+        \begin{itemize}
+            \item Personalizacja na podstawie preferencji dietetycznych użytkownika.
+            \item Uwzględnianie dostępnych składników.
+            \item Opcje dla osób z ograniczeniami dietetycznymi (np.\ weganizm, bezglutenowe).
+        \end{itemize}
+        \item \textbf{Zarządzanie Zapasami:}
+        \begin{itemize}
+            \item Monitorowanie stanu zapasów kuchennych.
+            \item Automatyczne tworzenie list zakupów.
+            \item Integracja z platformami zakupowymi online.
+        \end{itemize}
+        \item \textbf{Porady Żywieniowe:}
+        \begin{itemize}
+            \item Informacje na temat wartości odżywczych sugerowanych posiłków.
+            \item Sugestie zdrowych zamienników.
+            \item Personalizowane porady zdrowotne.
+        \end{itemize}
+        \item \textbf{Integracja z Urządzeniami IoT:}
+        \begin{itemize}
+            \item Połączenie z inteligentnymi urządzeniami kuchennymi.
+            \item Automatyzacja procesów gotowania (np.\ automatyczne ustawianie temperatury w piekarniku).
+        \end{itemize}
+        \item \textbf{Interaktywne Przepisy:}
+        \begin{itemize}
+            \item Baza przepisów z możliwością filtrowania według składników, czasu przygotowania, trudności.
+            \item Możliwość dodawania własnych przepisów przez użytkowników lub modyfikacji aktualnie dostępnych pod swoje upodobania.
+            \item Wskazówki krok po kroku z możliwością odtwarzania wideo.
+        \end{itemize}
+        \item \textbf{Automatyczne Przygotowywanie Śniadań:}
+        \begin{itemize}
+            \item Sterowanie urządzeniami kuchennymi (np.
+            ekspres do kawy, toster, piekarnik) w celu automatycznego przygotowania śniadania.
+            \item Możliwość zaplanowania przygotowywania śniadania na zadaną godzinę.
+            \item Monitorowanie procesu przygotowania i dostosowywanie ustawień w czasie rzeczywistym.
+        \end{itemize}
     \end{itemize}
-    \item \textbf{Zarządzanie Zapasami:}
+
+    \subsubsection{Technologia}
     \begin{itemize}
-        \item Monitorowanie stanu zapasów kuchennych.
-        \item Automatyczne tworzenie list zakupów.
-        \item Integracja z platformami zakupowymi online.
+        \item \textbf{Platforma:}
+        \begin{itemize}
+            \item Aplikacja mobilna dostępna na Android i iOS\@.
+            \item Responsywna wersja webowa.
+        \end{itemize}
+        \item \textbf{Integracja IoT:}
+        \begin{itemize}
+            \item API do komunikacji z inteligentnymi urządzeniami kuchennymi.
+            \item Obsługa protokołów takich jak Zigbee, Z-Wave.
+        \end{itemize}
+        \item \textbf{Baza Danych:}
+        \begin{itemize}
+            \item Chmurowa baza danych do przechowywania informacji o użytkownikach, przepisach, zapasach.
+            \item Bezpieczne przechowywanie danych osobowych.
+        \end{itemize}
+        \item \textbf{Interfejs Użytkownika:}
+        \begin{itemize}
+            \item Intuicyjny i łatwy w obsłudze interfejs.
+            \item Personalizacja wyglądu aplikacji przez użytkownika.
+        \end{itemize}
+        \item \textbf{Bezpieczeństwo:}
+        \begin{itemize}
+            \item Szyfrowanie danych użytkowników.
+            \item Regularne aktualizacje zabezpieczeń.
+        \end{itemize}
     \end{itemize}
-    \item \textbf{Porady Żywieniowe:}
+
+    \subsubsection{Wydajność}
     \begin{itemize}
-        \item Informacje na temat wartości odżywczych sugerowanych posiłków.
-        \item Sugestie zdrowych zamienników.
-        \item Personalizowane porady zdrowotne.
+        \item \textbf{Szybkość Działania:}
+        \begin{itemize}
+            \item Szybkie ładowanie aplikacji.
+            \item Optymalizacja pod kątem wydajności na różnych urządzeniach.
+        \end{itemize}
+        \item \textbf{Skalowalność:}
+        \begin{itemize}
+            \item Możliwość obsługi dużej liczby użytkowników.
+            \item Skalowalna infrastruktura serwerowa.
+        \end{itemize}
     \end{itemize}
-    \item \textbf{Integracja z Urządzeniami IoT:}
+
+    \subsubsection{Utrzymanie i Wsparcie}
     \begin{itemize}
-        \item Połączenie z inteligentnymi urządzeniami kuchennymi.
-        \item Automatyzacja procesów gotowania (np.\ automatyczne ustawianie temperatury w piekarniku).
+        \item \textbf{Wsparcie Techniczne:}
+        \begin{itemize}
+            \item 24/7 wsparcie techniczne dla użytkowników.
+            \item Regularne aktualizacje aplikacji.
+        \end{itemize}
+        \item \textbf{Dokumentacja:}
+        \begin{itemize}
+            \item Szczegółowa dokumentacja dla użytkowników i deweloperów.
+            \item Instrukcje i poradniki wideo.
+        \end{itemize}
     \end{itemize}
-    \item \textbf{Interaktywne Przepisy:}
+
+    \subsubsection{Testowanie}
     \begin{itemize}
-        \item Baza przepisów z możliwością filtrowania według składników, czasu przygotowania, trudności.
-        \item Możliwość dodawania własnych przepisów przez użytkowników lub modyfikacji aktualnie dostępnych pod swoje upodobania.
-        \item Wskazówki krok po kroku z możliwością odtwarzania wideo.
+        \item \textbf{Testy Funkcjonalne:}
+        \begin{itemize}
+            \item Testowanie wszystkich funkcji aplikacji.
+            \item Testy integracyjne z urządzeniami IoT\@.
+        \end{itemize}
+        \item \textbf{Testy Użyteczności:}
+        \begin{itemize}
+            \item Badania użyteczności z udziałem rzeczywistych użytkowników.
+            \item Regularne zbieranie feedbacku i wprowadzanie poprawek.
+        \end{itemize}
+        \item \textbf{Testy Bezpieczeństwa:}
+        \begin{itemize}
+            \item Testy penetracyjne.
+            \item Regularne audyty bezpieczeństwa.
+        \end{itemize}
     \end{itemize}
-    \item \textbf{Automatyczne Przygotowywanie Śniadań:}
-    \begin{itemize}
-        \item Sterowanie urządzeniami kuchennymi (np.
-        ekspres do kawy, toster, piekarnik) w celu automatycznego przygotowania śniadania.
-        \item Możliwość zaplanowania przygotowywania śniadania na zadaną godzinę.
-        \item Monitorowanie procesu przygotowania i dostosowywanie ustawień w czasie rzeczywistym.
-    \end{itemize}
-\end{itemize}
 
-\subsubsection{Technologia}
-\begin{itemize}
-    \item \textbf{Platforma:}
-    \begin{itemize}
-        \item Aplikacja mobilna dostępna na Android i iOS\@.
-        \item Responsywna wersja webowa.
-    \end{itemize}
-    \item \textbf{Integracja IoT:}
-    \begin{itemize}
-        \item API do komunikacji z inteligentnymi urządzeniami kuchennymi.
-        \item Obsługa protokołów takich jak Zigbee, Z-Wave.
-    \end{itemize}
-    \item \textbf{Baza Danych:}
-    \begin{itemize}
-        \item Chmurowa baza danych do przechowywania informacji o użytkownikach, przepisach, zapasach.
-        \item Bezpieczne przechowywanie danych osobowych.
-    \end{itemize}
-    \item \textbf{Interfejs Użytkownika:}
-    \begin{itemize}
-        \item Intuicyjny i łatwy w obsłudze interfejs.
-        \item Personalizacja wyglądu aplikacji przez użytkownika.
-    \end{itemize}
-    \item \textbf{Bezpieczeństwo:}
-    \begin{itemize}
-        \item Szyfrowanie danych użytkowników.
-        \item Regularne aktualizacje zabezpieczeń.
-    \end{itemize}
-\end{itemize}
 
-\subsubsection{Wydajność}
-\begin{itemize}
-    \item \textbf{Szybkość Działania:}
-    \begin{itemize}
-        \item Szybkie ładowanie aplikacji.
-        \item Optymalizacja pod kątem wydajności na różnych urządzeniach.
-    \end{itemize}
-    \item \textbf{Skalowalność:}
-    \begin{itemize}
-        \item Możliwość obsługi dużej liczby użytkowników.
-        \item Skalowalna infrastruktura serwerowa.
-    \end{itemize}
-\end{itemize}
+    \section{WBS - Work Breakdown Structure}\label{sec:wbs---work-breakdown-structure}
+    \begin{center}
+        \begin{tikzpicture}[
+            every node/.style={font=\small},
+            main/.style={rectangle, draw=blue!50!black, fill=blue!20, rounded corners, thick, font=\bfseries\small, minimum width=2cm, minimum height=0.7cm, align=center},
+            left/.style={rectangle, draw=green!50!black, fill=green!10, rounded corners, thick, align=center},
+            right/.style={rectangle, draw=orange!70!black, fill=orange!10, rounded corners, thick, align=center},
+        ]
+            \node[main] (projekt) {Projekt};
 
-\subsubsection{Utrzymanie i Wsparcie}
-\begin{itemize}
-    \item \textbf{Wsparcie Techniczne:}
-    \begin{itemize}
-        \item 24/7 wsparcie techniczne dla użytkowników.
-        \item Regularne aktualizacje aplikacji.
-    \end{itemize}
-    \item \textbf{Dokumentacja:}
-    \begin{itemize}
-        \item Szczegółowa dokumentacja dla użytkowników i deweloperów.
-        \item Instrukcje i poradniki wideo.
-    \end{itemize}
-\end{itemize}
+            \node[left, below left=0.8cm and 1.8cm of projekt] (planowanie) {Faza planowania};
+            \node[right, below right=0.8cm and 1.8cm of projekt] (tworzenie) {Faza tworzenia};
 
-\subsubsection{Testowanie}
-\begin{itemize}
-    \item \textbf{Testy Funkcjonalne:}
-    \begin{itemize}
-        \item Testowanie wszystkich funkcji aplikacji.
-        \item Testy integracyjne z urządzeniami IoT\@.
-    \end{itemize}
-    \item \textbf{Testy Użyteczności:}
-    \begin{itemize}
-        \item Badania użyteczności z udziałem rzeczywistych użytkowników.
-        \item Regularne zbieranie feedbacku i wprowadzanie poprawek.
-    \end{itemize}
-    \item \textbf{Testy Bezpieczeństwa:}
-    \begin{itemize}
-        \item Testy penetracyjne.
-        \item Regularne audyty bezpieczeństwa.
-    \end{itemize}
-\end{itemize}
-    
-\section{WBS - Work Breakdown Structure}\label{sec:wbs---work-breakdown-structure}
-\centering
-\begin{tikzpicture}[
-    every node/.style={font=\small},
-    main/.style={rectangle, draw=blue!50!black, fill=blue!20, rounded corners, thick, font=\bfseries\small, minimum width=2cm, minimum height=0.7cm, align=center},
-    left/.style={rectangle, draw=green!50!black, fill=green!10, rounded corners, thick, align=center},
-    right/.style={rectangle, draw=orange!70!black, fill=orange!10, rounded corners, thick, align=center},
-]
-    \node[main] (projekt) {Projekt};
+            \node[left, below left=0.8cm and -1.3cm of planowanie] (badanie) {Badanie potrzeb rynku};
+            \node[left, below right=0.8cm and -1.3cm of planowanie] (projektowanie) {Projektowanie};
 
-    \node[left, below left=0.8cm and 1.8cm of projekt] (planowanie) {Faza planowania};
-    \node[right, below right=0.8cm and 1.8cm of projekt] (tworzenie) {Faza tworzenia};
+            \node[left, below left=0.8cm and -1.1cm of projektowanie] (wizualny) {Wizualny projekt interfejsu};
+            \node[left, below right=0.8cm and -1.1cm of projektowanie] (struktura) {Projekt struktury kodu};
 
-    \node[left, below left=0.8cm and -1.3cm of planowanie] (badanie) {Badanie potrzeb rynku};
-    \node[left, below right=0.8cm and -1.3cm of planowanie] (projektowanie) {Projektowanie};
+            \node[right, below=0.8cm of tworzenie] (implementacja) {Implementacja założeń projektowych};
+            \node[right, below right=3.7cm and -5.5cm of implementacja] (integracja) {Integracja z zewnętrznymi urządzeniami};
+            \node[right, below left=2.3cm and -2.5cm of implementacja] (utworzenie) {Utworzenie aplikacji};
 
-    \node[left, below left=0.8cm and -1.1cm of projektowanie] (wizualny) {Wizualny projekt interfejsu};
-    \node[left, below right=0.8cm and -1.1cm of projektowanie] (struktura) {Projekt struktury kodu};
+            \draw[thick] (projekt) -- (planowanie);
+            \draw[thick] (projekt) -- (tworzenie);
 
-    \node[right, below=0.8cm of tworzenie] (implementacja) {Implementacja założeń projektowych};
-    \node[right, below right=3.7cm and -5.5cm of implementacja] (integracja) {Integracja z zewnętrznymi urządzeniami};
-    \node[right, below left=2.3cm and -2.5cm of implementacja] (utworzenie) {Utworzenie aplikacji};
+            \draw[thick] (planowanie) -- (badanie);
+            \draw[thick] (planowanie) -- (projektowanie);
+            \draw[thick] (projektowanie) -- (wizualny);
+            \draw[thick] (projektowanie) -- (struktura);
 
-    \draw[thick] (projekt) -- (planowanie);
-    \draw[thick] (projekt) -- (tworzenie);
+            \draw[thick] (tworzenie) -- (implementacja);
+            \draw[thick] (implementacja) -- (integracja);
+            \draw[thick] (implementacja) -- (utworzenie);
 
-    \draw[thick] (planowanie) -- (badanie);
-    \draw[thick] (planowanie) -- (projektowanie);
-    \draw[thick] (projektowanie) -- (wizualny);
-    \draw[thick] (projektowanie) -- (struktura);
+        \end{tikzpicture}
+    \end{center}
 
-    \draw[thick] (tworzenie) -- (implementacja);
-    \draw[thick] (implementacja) -- (integracja);
-    \draw[thick] (implementacja) -- (utworzenie);
+    \begin{tikzpicture}
+        \draw (0,0) -- (15,0);
 
-\end{tikzpicture}
+        \foreach \x in {0,3,6,9,12,15}
+        \draw (\x,0.15) -- (\x,-0.4);
 
-\begin{tikzpicture}
-    \draw (0,0) -- (15,0);
+        \node[anchor=south] at (0,0.15) {Badanie rynku};
+        \node[anchor=south] at (3,0.15) {Projekt intefejsu};
+        \node[anchor=south] at (6,0.15) {Projekt kodu};
+        \node[anchor=south] at (9,0.15) {Pisanie kodu};
+        \node[anchor=south] at (12,0.15) {Integracja};
+        \node[anchor=south] at (15,0.15) {Gotowy projekt};
 
-    \foreach \x in {0,3,6,9,12,15}
-    \draw (\x,0.15) -- (\x,-0.4);
+    \end{tikzpicture}
 
-    \node[anchor=south] at (0,0.15)    {Badanie rynku};
-    \node[anchor=south] at (3,0.15)    {Projekt intefejsu};
-    \node[anchor=south] at (6,0.15)    {Projekt kodu};
-    \node[anchor=south] at (9,0.15)    {Pisanie kodu};
-    \node[anchor=south] at (12,0.15)   {Integracja};
-    \node[anchor=south] at (15,0.15)   {Gotowy projekt};
+    \newpage
 
-\end{tikzpicture}
+    \section{Work Packages - Podejście Waterfall}\label{sec:work-packages---podejscie-waterfall}
 
-\newpage
+    \begin{table}[ht]
+        \centering
+        \renewcommand{\arraystretch}{1.4}
+        \rowcolors{2}{white}{gray!10}
+        \begin{tabular}{|>{\columncolor{yellow!20}}c|>{\columncolor{yellow!10}}m{3.2cm}|m{4cm}|m{4.5cm}|>{\columncolor{yellow!10}}m{0.8cm}|}
+            \hline
+            \rowcolor{yellow!30}
+            WP & Nazwa etapu & Cel zadania & Rezultaty (Deliverables) & Czas [dni] \\
+            \hline
+            WP1 & Badanie rynku & Zidentyfikowanie potrzeb użytkowników & Lista podpunktów do pokrycia przez projekt & 4 \\
+            \hline
+            WP2 & Projekt interfejsu & Przełożenie pomysłu na warstwę wizualną projektu & Gotowy projekt warstwy wizualnej & 3 \\
+            \hline
+            WP3 & Projekt kodu & Zaprojektowanie warstwy logicznej aplikacji oraz dobór odpowiednich technologii & Gotowa lista zadań do zrobienia oraz technologie potrzebne do ich zaimplementowania & 3 \\
+            \hline
+            WP4 & Pisanie kodu & Utworzenie działającej aplikacji & Działająca aplikacja & 7 \\
+            \hline
+            WP5 & Integracja & Zintegrowanie aplikacji z zewnętrznymi urządzeniami oraz innymi wymaganymi aplikacjami & API używane do integracji zewnętrznych & 3 \\
+            \hline
+            WP6 & Gotowy projekt & Oddanie gotowego projektu & Koniec prac i pieniądze ze sprzedaży aplikacji & 1 \\
+            \hline
+        \end{tabular}
+    \end{table}
 
-\section{\mbox{Work Packages - Podejście Waterfall}}\label{sec:work-packages---podejscie-waterfall}
 
-\begin{table}[ht]
-    \centering
-    \renewcommand{\arraystretch}{1.4}
-    \rowcolors{2}{white}{gray!10}
-    \begin{tabular}{|>{\columncolor{yellow!20}}c|>{\columncolor{yellow!10}}m{3cm}|m{3.2cm}|m{3.2cm}|>{\columncolor{yellow!10}}c|}
-        \hline
-        \rowcolor{yellow!30}
-        WP & Nazwa etapu & Cel zadania & Rezultaty (Deliverables) & Czas [dni] \\
-        \hline
-        WP1 & Badanie rynku & Zidentyfikowanie potrzeb użytkowników & Lista podpunktów do pokrycia przez projekt & 4 \\
-        \hline
-        WP2 & Projekt interfejsu & Przełożenie pomysłu na warstwę wizualną projektu & Gotowy projekt warstwy wizualnej & 3 \\
-        \hline
-        WP3 & Projekt kodu & Zaprojektowanie warstwy logicznej aplikacji oraz dobór odpowiednich technologii & Gotowa lista zadań do zrobienia oraz technologie potrzebne do ich zaimplementowania & 3 \\
-        \hline
-        WP4 & Pisanie kodu & Utworzenie działającej aplikacji & Działająca aplikacja & 7 \\
-        \hline
-        WP5 & Integracja & Zintegrowanie aplikacji z zewnętrznymi urządzeniami oraz innymi wymaganymi aplikacjami & API używane do integracji zewnętrznych & 3 \\
-        \hline
-        WP6 & Gotowy projekt & Oddanie gotowego projektu & Koniec prac i pieniądze ze sprzedaży aplikacji & 1 \\
-        \hline
-    \end{tabular}
-\end{table}
+    \section{Wykres Gantta}\label{sec:wykres-gantta}
 
-\section{\mbox{Wykres Gantta}}\label{sec:wykres-gantta}
+    \vspace{1cm}
 
-\vspace{1cm} % Adds 1cm of vertical space below the heading
+    \begin{ganttchart}[
+        hgrid,
+        vgrid,
+        bar height=0.6,
+        bar/. append style={fill=orange!60},
+        title label font=\bfseries\footnotesize
+    ]{1}{21}
+        \gantttitle{ Sprinty Kwiecien 2025}{21} \\
+        \gantttitlelist{1,...,21}{1} \\
+        \ganttbar{Sprint WP1}{1}{4} \\
+        \ganttbar{Sprint WP2}{5}{7} \\
+        \ganttbar{Sprint WP3}{8}{10} \\
+        \ganttbar{Sprint WP4}{11}{17} \\
+        \ganttbar{WP5}{18}{20} \\
+        \ganttbar{WP6}{21}{21}
+    \end{ganttchart}
 
-\begin{ganttchart}[
-    hgrid,
-    vgrid,
-    bar height=0.6,
-    bar/. append style={fill=orange!60},
-    title label font=\bfseries\footnotesize
-]{1}{21}
-\gantttitle{ Sprinty Kwiecien 2025}{21} \\
-\gantttitlelist{1,...,21}{1} \\
-\ganttbar{Sprint WP1}{1}{4} \\
-\ganttbar{Sprint WP2}{5}{7} \\
-\ganttbar{Sprint WP3}{8}{10} \\
-\ganttbar{Sprint WP4}{11}{17} \\
-\ganttbar{WP5}{18}{20} \\
-\ganttbar{WP6}{21}{21}
-\end{ganttchart}
 
+    \section{Zasoby projektu}\label{sec:zasoby-projektu}
+    Zasoby projektu dzielimy na trzy główne kategorie
+    \begin{enumerate}
+        \item Zasoby ludzkie
+        \item Zasoby technologiczne
+        \item Zasoby finansowe
+    \end{enumerate}
+
+    \subsection{Zasoby ludzkie}\label{subsec:zasoby-ludzkie}
+    W tej kategorii zawierają się wszyscy ludzie współtworzący projekt.
+    Programiści, graficy, osoby odpowiedzialne za testy oraz wiele więcej.
+    W zależności od projektu może to być zarówno kilka osób jak i naprawdę potężny zespół ludzi.
+    Do aktualnego projektu na pewno konieczni będą:
+    \begin{enumerate}
+        \item Programiści Backend oraz Frontend - odpowiedzialni za działanie aplikacji
+        \item UX/UI Designer/s - wygląd oraz wygoda użytkowania gotowego produktu
+        \item Electronic engineer - do ewentualnych konsultacji przy integracjach z urządzeniami zewnętrznymi
+        \item Testerzy - wyłapywanie błędów i niezgodności z dokumentacją projektu
+        \item Project Manager - lider projektu, odpowiedzialny za koordynację całego zespołu
+    \end{enumerate}
+    Odpowiednie zarządzanie zasobami ludzkimi jest kluczowe dla powodzenia projektu\. Nawet najlepsi specjaliści na nic
+    się nie zdadzą jak nie będą wiedzieli co mają robić, albo będą musieli czekać efekty pracy ociągających się kolegów.
+
+
+    \subsection{Zasoby technologiczne}\label{subsec:zasoby-technologiczne}
+    Do tej kategorii można zaliczyć zarówno zasoby używane do pracy nad projektem, jak komputery czy oprogramowanie zainstalowane na nim,
+    jak i urządzenia będące składową finalnego produktu, jak telefony i komputery uruchamiające aplikację czy urządzenia zewnętrzne
+    przystosowane do zintegrowania z aplikacją mobilną. Do pierwszej kategorii można na pewno zaliczyć:
+    \subsubsection{Hardware:}
+    \begin{enumerate}
+        \item Komputery - na czymś muszą pracować osoby zajmujące się projektem
+        \item Rozwiązania chmurowe - umożliwiają łatwą współpracę w zespole, nawet z ludźmi mieszkającymi bardzo daleko od siebie
+    \end{enumerate}
+    \subsubsection{Software:}
+    \begin{enumerate}
+        \item Środowiska IDE - aplikacje służące do tworzenia aplikacji(InteliJ IDEA, PHPStorm, VSCode)
+        \item Oprogramowanie dla grafików oraz UX/UI Designer'ów(Canva, Adobe Photoshop)
+        \item Aplikacje do zdalnej współpracy(Git, Github, Jira, Trello)
+    \end{enumerate}
+    W drugiej kategorii znajdują się:
+    \subsubsection{Hardware:}
+    \begin{enumerate}
+        \item Wszelkie urządzenia służące do uruchamiania gotowego projektu(dla aplikacji będzie to albo telefon albo komputer/laptop)
+    \end{enumerate}
+    \subsubsection{Software:}
+    \begin{enumerate}
+        \item Programy wymagane do uruchomienia aplikacji(dla aplikacji webowej będzie to np. przeglądarka WWW)
+    \end{enumerate}
+
+    \subsection{Zasoby finansowe}\label{subsec:zasoby-finansowe}
+    Jednak bez pieniędzy żaden projekt nie będzie w stanie ruszyć z miejsca. Komputery do pracy nie należą do tanich,
+    tak samo jak oprogramowanie na nich zainstalowane. Również specjaliści w swoich branżach cenią swój czas\. Więc,
+    by uzyskać dobrej jakości produkt, trzeba po pierwsze mieć pieniądze, a po drugie mądrze nimi zarządzać.
+
+    \newpage
+
+\section{Koszty}\label{sec:koszty}
+    \subsection{Tabela kosztów}\label{subsec:tabela-kosztow}
+    \begin{table}[ht]
+        \centering
+        \renewcommand{\arraystretch}{1.4}
+        \rowcolors{2}{white}{gray!10}
+        \begin{tabular}{|m{8.2cm}|m{3.4cm}|m{1.4cm}|m{2cm}|}
+            \hline
+            \rowcolor{yellow!30}
+            Zasób & Kategoria & Liczba & Szacowany koszt(zł) \\
+            \hline
+            Programiści Frontend & Zasoby ludzkie & 2 & 5600 \\
+            \hline
+            Programiści Backend & Zasoby ludzkie & 3 & 8400 \\
+            \hline
+            Ux/UI Designer & Zasoby ludzkie & 1 & 1080 \\
+            \hline
+            Testerzy & Zasoby ludzkie & 3 & 5880 \\
+            \hline
+            Project Manager & Zasoby ludzkie & 1 & 8400 \\
+            \hline
+            Komputery dla pracowników & Zasoby techniczne & 10 & 80000 \\
+            \hline
+            Oprogramowanie dla programistów Frontend & Zasoby techniczne & 2 & 1100 \\
+            \hline
+            Oprogramowanie dla programistów Backend & Zasoby techniczne & 3 & 1500 \\
+            \hline
+            Oprogramowanie dla Testerów & Zasoby techniczne & 3 & 600 \\
+            \hline
+            Oprogramowanie dla Project Managera & Zasoby techniczne & 1 & 300 \\
+            \hline
+            Aplikacje chmurowe dla zespołu & Zasoby techniczne & 5 & 2500 \\
+            \hline
+            \multicolumn{3}{|c|}{Podsumowanie kosztów} & 115360 \\
+            \hline
+            \multicolumn{3}{|c|}{Po doliczeniu marginesu bezpieczeństwa 10\%} & 126896 \\
+            \hline
+
+        \end{tabular}
+    \end{table}
+
+    \subsection{Rozkład kosztów w czasie}\label{subsec:rozkad-kosztow-w-czasie}
+    \begin{ganttchart}[
+        hgrid,
+        vgrid,
+        bar height=0.6,
+        bar/. append style={fill=orange!60},
+        title label font=\bfseries\footnotesize
+    ]{1}{21}
+        \gantttitle{ Sprinty Kwiecien 2025}{21} \\
+        \gantttitlelist{1,...,21}{1} \\
+        \ganttbar{Programiści Frontend}{8}{14} \\
+        \ganttbar{Programiści Backend}{8}{14} \\
+        \ganttbar{UX/UI Designer}{5}{7} \\
+        \ganttbar{Testerzy}{8}{14} \\
+        \ganttbar{Project Manager}{1}{21} \\
+        \ganttbar{Komputery}{1}{1} \\
+        \ganttbar{Oprogramowanie Frontend}{8}{8} \\
+        \ganttbar{Oprogramowanie Backend}{8}{8} \\
+        \ganttbar{Oprogramowanie Testerzy}{8}{8} \\
+        \ganttbar{Oprogramowanie PM}{1}{1} \\
+        \ganttbar{Aplikacje chmurowe}{1}{21}
+    \end{ganttchart}
 \end{document}
